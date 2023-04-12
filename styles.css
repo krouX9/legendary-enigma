@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mxy_1{
+    margin: 3rem 0rem;
+}
+body{
+    font-family: 'Work Sans';
+}
+.topheader{
+    width: 100%;
+    height: 40px;
+    background-color: #2D323D;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.cartIcon{
+    position: relative;
+}
+.wishBubble{
+    position: absolute;
+    bottom:95%;
+    left:68%;
+    width:16px;
+    height:16px;
+    background-color: #FF3465;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartBubble{
+    position: absolute;
+    bottom:95%;
+    left:75%;
+    width:16px;
+    height:16px;
+    background-color: #FF3465;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cartBubble p{
+    color: #F2F2F2 ;
+}
+.wishBubble p{
+    color: #F2F2F2 ;
+}
+.profileIcon{
+    position: relative;
+}
+.topnav{
+    display:flex;
+    justify-content: flex-end;
+    height:100%;
+}
+.mainNavLinks{
+    display: inline-block;
+    width:39%;
+    flaot:right;
+}
+.mainNavLinks a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+span.mainNavs{
+    color:#f2f2f2;
+    height: 100%;
+}
+.topheader li{
+    list-style: none;
+
+}
+#wishList{
+    width: 100%;
+    height: 100%;
+    margin:1%;
+}
+
+.topnav span a{
+    font-family: 'Work Sans', "Regular";
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    box-sizing: content-box;
+    /* padding:3%; */
+    
+}
+a#cart{
+    padding:3%;
+}
+#topNavIcons {
+    width: 19px;
+    height:18px;
+    color: #f2f2f2;
+    margin: -3px 1px;
+    fill:#f2f2f2;
+    filter: invert(99%) sepia(50%) saturate(404%) hue-rotate(213deg) brightness(120%) contrast(90%);
+}
+.bottomNav{
+    display: flex;
+}
+.bottomNav li{
+    list-style: none;
+    padding: 2%;
+}
+.bottomNav li a{
+    text-decoration: none;
+    color:#463F5F;
+    font-size: 14px;
+   
+    font-family: 'Work Sans', "Regular";
+}
+.wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    color: #463F5F;
+    letter-spacing: 1px;
+}
+ul.bottomNav{
+    width: 72%;
+}
+.wrapper{
+    height: 88px;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+#logo{
+    display: none;
+}
+.logoDesktop h1{
+    font-family: 'Work Sans';
+    border: 5px solid #463F5F;
+    text-align: center;
+    
+
+}
+#search{
+    /* float:right; */
+    width: 29px;
+    height: auto;
+    /* margin: 85%; */
+}
+footer{
+    color: #B7BDC1;
+    background-color: #1D1D1D;
+    width: 100%;
+}
+footer a{
+    color: #B7BDC1;
+}
+.top_footer{
+    display: flex;
+    gap:3rem;
+}
+.top_left_footer{
+    display: flex;
+    width: 70%;
+    gap:3rem;
+}
+.top_left_footer h1{
+    font-size: 20px;
+    color: #B7BDC1;
+}
+.top_left_footer p{
+    font-size: 12px;
+    color: #B7BDC1;
+}
+.top_right_footer{
+    width: 30%;
+}
+.top_left_halfbar h1{
+    font-size: 20px;
+}
+.top_left_halfbar p{
+    font-size: 12px;
+}
+.bottom_footer{
+    display: flex;
+    gap:3rem;
+}
+.bottom_left_footer{
+    display: flex;
+    width:70%;
+}
+.bottom_right_footer{
+    width:30%;
+}
+.footerWrapper{
+    width:80%;
+    margin: 10rem auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom_left_footer a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #777777;
+} 
+.bottom_left_footer li{
+    list-style: none;
+}
+.bottom_left_footer h3{
+    font-size: 14px;
+}
+.bottom_right_footer h1{
+    font-size: 28px;
+}
+.bottom_right_footer p{
+    font-size: 13px;
+    color: #777777;
+}
+.chatSupportbtn button{
+    background-color:#1D1D1D;
+    color: #F2F2F2 ;
+    box-sizing: content-box;
+    padding:2% 12% ;
+    font-family: "Lato";
+    font-size: 14px;
+    border: 1px solid #F2F2F2;
+    margin:5% 0%;
+}
+.paymentBar h2{
+    font-size: 13px;
+    color: #F2F2F2;
+    
+
+}
+#email{
+    background-color: #1D1D1D;
+    border: 1.5px solid #AAAAAA;
+    padding: 2%;
+    width: 17rem;
+    font-family: 'Lato';
+}
+.mail_input{
+    position: relative;
+}
+#subscribe{
+    position: absolute;
+    right: 3%;
+    top: 15%;
+    background-color: #1D1D1D;
+    color: #EDEEEF;
+    font-family: 'Work Sans';
+    box-shadow: none;
+    border: none;
+}
+#paymentImg{
+    width:40%;
+}
+.footerLinks{
+    width: 25%;
+}
+.productContainer{
+    width:75%;
+}
+
+.productDataCard{
+    width:304px;
+    height:416px;
+    background-color: #FF3465;
+}
